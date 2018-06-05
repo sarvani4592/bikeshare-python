@@ -97,7 +97,7 @@ def get_day_of_week():
             except ValueError:
                 print('Sorry, I do not understand your input. Please type your'
                       ' response as an integer.')
-                day = raw_input(
+                day = input(
                     '\nWhich day? Please type your response as an integer for a particular day in a datetime fashion DD.\n')
         try:
             start_date = datetime(2017, month, day)
